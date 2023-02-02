@@ -9,6 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class CatalogService {
 
+  // Fix this so you can use backend ip address
   baseURL = "http://localhost:3000/cursos";
 
   constructor(

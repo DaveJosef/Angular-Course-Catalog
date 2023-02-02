@@ -29,6 +29,11 @@
       "id": 7,
       "nome": "Angular e react 2",
       "valor": 200
+    },
+    {
+      "id": 8,
+      "nome": "React avançado",
+      "valor": 180
     }
   ]
 }
