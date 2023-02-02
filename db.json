@@ -1,0 +1,39 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Angular Básico",
+      "valor": 130
+    },
+    {
+      "id": 10,
+      "nome": "Angular Seis",
+      "valor": 180
+    },
+    {
+      "id": 2,
+      "nome": "Angular e react",
+      "valor": 200
+    },
+    {
+      "id": 5,
+      "nome": "Angular e react",
+      "valor": 200
+    },
+    {
+      "id": 6,
+      "nome": "Angular Profissional Nível Extreme",
+      "valor": 4000
+    },
+    {
+      "id": 7,
+      "nome": "Angular Profissional Nível Extreme",
+      "valor": 4000
+    },
+    {
+      "id": 8,
+      "nome": "React básico",
+      "valor": 130
+    }
+  ]
+}

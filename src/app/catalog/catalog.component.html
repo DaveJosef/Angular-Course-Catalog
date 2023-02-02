@@ -1,0 +1,21 @@
+<div class="curso-form div-box">
+  <input placeholder="id do curso" (change)="updatePermissionStatus(curso.id)" min="1" type="number" [(ngModel)]="curso.id" />
+  <input placeholder="nome do curso" type="text" [(ngModel)]="curso.nome" />
+  <input placeholder="valor do curso" min="1" type="number" [(ngModel)]="curso.valor" />
+</div>
+<div class="edit-butttons div-box">
+  <button class="input-default" [disabled]="!permissionStatus.creating" (click)="create(curso)" [ngClass]="permissionStatus.creating ? 'button-enabled' : 'button-disabled'">Create</button>
+  <button class="input-default" [disabled]="!permissionStatus.editing" (click)="update(curso.id, curso)" [ngClass]="permissionStatus.editing ? 'button-enabled' : 'button-disabled'">Update</button>
+</div>
+<div class="list-button-wrapper div-box">
+  <button class="input-default" (click)="list()">List</button>
+</div>
+<ul>
+  <li class="curso-list-item div-box" *ngFor="let curso of cursos">
+    <p>{{ curso.id }}</p>
+    <p>{{ curso.nome }}</p>
+    <p>{{ curso.valor | currency:'BRL' }}</p>
+    <button class="input-default" (click)="delete(curso.id)">Delete</button>
+    <button class="input-default" (click)="setCurso(curso)">Edit</button>
+  </li>
+</ul>
