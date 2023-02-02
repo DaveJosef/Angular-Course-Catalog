@@ -17,7 +17,7 @@
     },
     {
       "id": 5,
-      "nome": "Angular e react",
+      "nome": "Angular e react 2",
       "valor": 200
     },
     {
@@ -27,13 +27,8 @@
     },
     {
       "id": 7,
-      "nome": "Angular Profissional Nível Extreme",
-      "valor": 4000
-    },
-    {
-      "id": 8,
-      "nome": "React básico",
-      "valor": 130
+      "nome": "Angular e react 2",
+      "valor": 200
     }
   ]
 }
